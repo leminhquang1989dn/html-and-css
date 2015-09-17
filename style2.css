@@ -1,0 +1,347 @@
+*{
+	margin:0px;
+	padding:0px;
+	text-decoration:none;
+	list-style-type:none;
+}
+@font-face{
+	font-family:font-quang;
+	src:url("ARDECODE.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+.yellow{
+	
+color: orange;
+}
+.wrap{
+	width:1600px;
+	border:1px solid red;
+	background-color:black;
+	
+}
+.header{
+	width:100%;
+	overflow:hidden;
+	background-color: black;
+	height: 100px;
+}
+.logo{
+	
+float: left;
+	
+margin-left: 160px;
+	
+margin-top: 48px;
+	
+text-transform: uppercase;
+	
+color: white;
+	
+font-weight: bold;
+}
+.logo p{
+	
+}
+.slogan{
+	
+float: left;
+	
+margin-left: 12px;
+	
+color: lightgray;
+	
+margin-top: 51px;
+	
+font-size: 10px;
+}
+.slogan p{
+	
+}
+.menu{
+	
+float: left;
+	
+margin-left: 166px;
+}
+.menu ul{
+	
+}
+.menu ul li{
+	
+display: inline-block;
+	
+margin-right: 40px;
+}
+.menu ul li a{
+	
+color: white;
+	
+font-weight: bold;
+	
+text-transform: uppercase;
+	
+font-size: 11px;
+	
+padding-left: 10px;
+	
+padding-top: 50px;
+	
+padding-bottom: 31px;
+	
+display: block;
+	
+border-top: 3px solid transparent;
+}
+.menu ul li a:hover {
+	border-top: 3px solid orange;
+	background-color: #3E2D2D;
+
+}
+.slider{
+	width:100%;
+	height:400px;
+	background-color:#00ccff;
+	color: white;
+	overflow: hidden;
+	word-spacing: 4px;
+}
+.slider p{
+	
+margin-left: 512px;
+	
+font-size: 20px;
+	
+margin-top: 60px;
+	
+margin-bottom: 40px;
+	
+letter-spacing: 4px;
+}
+h1{
+	
+margin-left: 477px;
+	
+font-size: 40px;
+	
+margin-bottom: 30px;
+}
+.top{
+	
+width: 360px;
+	
+border-style: dotted;
+	
+margin-left: 454px;
+	
+margin-bottom: 30px;
+}
+.bottom{
+	width: 305px;
+	border-style: dotted;
+	margin-left: 481px;
+	margin-bottom: 30px;
+}
+.slider ul{
+	
+margin-left: 436px;
+}
+.slider ul li{
+	
+display: inline-block;
+	
+margin-right: 11px;
+	
+word-spacing: 13px;
+}
+.slider ul li a{
+	
+font-size: 20px;
+	
+color: white;
+}
+.slider ul li a:hover{
+	
+font-size: 20px;
+	
+color: blue;
+}
+.booking{
+	position:absolute;
+	width: 875px;
+	height: 100px;
+	background-color:black;
+	z-index: 10;
+	margin-top: -50px;
+	margin-left: 240px;
+	color:white;
+	overflow:hidden;
+	box-shadow: 0px 14px 37px #888888;
+}
+.lable{
+	
+margin-top: 10px;
+	
+margin-left: 14px;
+	
+color: orange;
+	
+font-weight: bold;
+}
+.date{
+	border-radius: 11px;
+	background-image: url("lich.png");
+	background-repeat:no-repeat;
+	padding-left: 17px;
+	height: 40px;
+	margin-left: 10px;
+	background-position: left;
+	font-size: 20px;
+	width: 182px;
+	color: gray;
+}
+.content{
+	background-color: lightgrey;
+	width:100%;
+	height:1292px;
+}
+.checkin,.checkout{
+	float:left
+}
+.Room{
+	float:left;
+	color: orange;
+	font-weight: bold;
+}
+.Room select{
+	
+width: 207px;
+	
+border-radius: 12px;
+	
+height: 44px;
+	
+margin-left: 16px;
+}
+.Room option{
+	border-radius: 12px;
+}
+.lable-room{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.view-prices{
+	width: 197px;
+	height:44px;
+	background-color:orange;
+	font-weight:bold;
+	border-radius:12px;
+	margin-left: 10px;
+	margin-top: 29px;
+	float: left;
+}
+.content img{
+	margin-left: 122px;
+	width: 65%;
+	margin-top: 33px;
+}
+#circle {
+      background-color: #C8AFAF;
+      margin-left:40px;
+      width: 150px;
+      height: 150px;
+      border: 1px solid black;
+      border-radius: 80px;
+      float:left;
+      position:relative;
+    }
+.content-circle{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: #fff;
+	
+}
+#circle:hover{
+	transform:scale(1.5);
+	background-color:red;
+	margin-right:10px;
+	transition:all.4s;
+}
+.list-circle{
+	overflow: hidden;
+	float:left;
+	margin-right: 66px;
+	width: 615px;
+}
+.back{
+	width: 49px;
+	height: 151px;
+	background:url("arrow.png") -24px 0;
+	background-color: none;
+	float:left;
+	margin-top: -8px;
+	margin-left: 256px;
+	margin-right: 49px;
+}
+.next{
+	width: 49px;
+	height: 151px;
+	background: url("arrow.png") -89px 0;
+	float:left;
+	margin-top: -8px;
+}
+.Our-room{
+	width:100%;
+	height:796;
+	overflow:hidden;
+	background-color: #FFFFFF;
+}
+.title{
+	font-family:font-quang;
+	font-size: 56px;
+	margin-left: 491px;
+}
+.list-room{
+	
+margin-left: 79px;
+	
+overflow: hidden;
+}
+.detail-room{
+	width:378px;
+	height:270px;
+	background-color:yellow;
+	display:inline-block;
+	margin-bottom: 18px;
+}
+.image-room{
+	width:100%;
+	height:162px;
+	background-color:black;
+}
+.footer-room{
+	width:100%;
+	height:270px;
+	background-color: white;
+	background-image:url("your-pic.png");
+	background-position: 972px;
+	background-size: 267px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+}
+.your-picture{
+	width: 100%;
+	height:100%;
+	background-color: rgba(255, 165, 0, 0.15);
+	height:180px;
+	float:left;
+	margin-top: 90px;
+}
+.footer{
+	width:100%;
+	height:400px;
+    background-color:gray;
+	margin-bottom:40px;
+}
